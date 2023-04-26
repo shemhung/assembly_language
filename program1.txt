@@ -1,0 +1,15 @@
+arm-none-eabi-gcc -T generic-hosted.ld gcc-asm-template.S -o gcc-asm-template
+
+arm-none-eabi-gcc -T generic-hosted.ld HW1.S -o HW1
+
+
+arm-none-eabi-run.exe gcc-asm-template
+
+arm-none-eabi-run.exe HW1
+
+"1254"
+
+'1' - 48 = 1
+1 * 10 + ('2' - 48) = 12
+12 * 10 + ('5' - 48) = 125t	
+125* 10 + ('4'-  48)   =1254
